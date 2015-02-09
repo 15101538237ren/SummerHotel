@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffcc"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/title" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="0dip"
+            android:layout_marginLeft="0dip"
+            android:layout_marginTop="0dip"
+            android:gravity="center"
+            android:text="欢迎光临夏日酒店"
+            android:textColor="#FFFFFF"
+            android:textSize="20dip"
+            android:textStyle="bold" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/resourcedetailImageButton01"
+                android:layout_width="40dip"
+                android:layout_height="30dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="0dip"
+                android:background="@drawable/next_button" >
+            </ImageButton>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/resourcedetailImageButton02"
+                android:layout_width="40dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginTop="0dip"
+                android:background="@drawable/before_button" >
+            </ImageButton>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dip"
+        android:layout_marginLeft="11dip"
+        android:layout_marginRight="11dip"
+        android:layout_marginTop="4dip"
+        android:background="@drawable/navigator"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="68dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="#FFFFFF"
+            android:textSize="14dip"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:layout_width="68dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:gravity="center"
+            android:text="用户信息"
+            android:textColor="#FFFFFF"
+            android:textSize="14dip"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:layout_width="68dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/hilight"
+            android:gravity="center"
+            android:text="资源信息"
+            android:textColor="#FFFFFF"
+            android:textSize="14dip"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:layout_width="68dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:gravity="center"
+            android:text="订单查看"
+            android:textColor="#FFFFFF"
+            android:textSize="14dip"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/resourcedetailLinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dip"
+                android:text="房  间  号："
+                android:textColor="@color/black"
+                android:textSize="20dip" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/resourcedetailTextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20dip" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow" >
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dip" >
+
+                <TextView
+                    android:id="@+id/resourcedetailTextView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textColor="@color/black"
+                    android:textSize="20dip" >
+                </TextView>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow" >
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dip" >
+
+                <TextView
+                    android:id="@+id/resourcedetailTextView03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textColor="@color/black"
+                    android:textSize="20dip" >
+                </TextView>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:background="@color/yellow"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/resourcedetailLinearLayout03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dip"
+                    android:gravity="center"
+                    android:text="起始时间："
+                    android:textColor="@color/black"
+                    android:textSize="20dip" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/resouredetailEditText01"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text"
+                    android:text="点击设置时间"
+                    android:textColor="@color/black"
+                    android:textSize="20dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/resourcedetailLinearLayout04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dip"
+                    android:gravity="center"
+                    android:text="结束时间："
+                    android:textColor="@color/black"
+                    android:textSize="20dip" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/resouredetailEditText02"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text"
+                    android:text="点击设置时间"
+                    android:textColor="@color/black"
+                    android:textSize="20dip" >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/resouredetailButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dip"
+            android:text="预定"
+            android:textSize="20dip" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

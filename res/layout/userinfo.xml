@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffcc"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/title" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="0dip"
+            android:layout_marginLeft="0dip"
+            android:layout_marginTop="0dip"
+            android:gravity="center"
+            android:text="欢迎光临夏日酒店"
+            android:textColor="#FFFFFF"
+            android:textSize="20dip"
+            android:textStyle="bold" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/userinfoImageButton01"
+                android:layout_width="40dip"
+                android:layout_height="30dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="0dip"
+                android:background="@drawable/next_button" >
+            </ImageButton>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/userinfoImageButton02"
+                android:layout_width="40dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginTop="0dip"
+                android:background="@drawable/before_button" >
+            </ImageButton>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dip"
+        android:layout_marginLeft="11dip"
+        android:layout_marginRight="11dip"
+        android:layout_marginTop="4dip"
+        android:background="@drawable/navigator"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="68dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="#FFFFFF"
+            android:textSize="14dip"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:layout_width="68dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/hilight"
+            android:gravity="center"
+            android:text="用户信息"
+            android:textColor="#FFFFFF"
+            android:textSize="14dip"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:layout_width="68dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:gravity="center"
+            android:text="资源信息"
+            android:textColor="#FFFFFF"
+            android:textSize="14dip"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:layout_width="68dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:gravity="center"
+            android:text="订单查看"
+            android:textColor="#FFFFFF"
+            android:textSize="14dip"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:background="@color/yellow"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dip"
+                android:text="用  户  名：  "
+                android:textColor="@color/black"
+                android:textSize="20dip" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/userinfoTextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="20dip" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/userinfoLinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dip"
+                android:text="密       码 ："
+                android:textColor="#000000"
+                android:textSize="20dip" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/userinfoEditText02"
+                android:layout_width="180dip"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text=""
+                android:textSize="20dip" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dip"
+                android:singleLine="true"
+                android:text="手  机  号："
+                android:textColor="@color/black"
+                android:textSize="20dip" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/userinfoEditText04"
+                android:layout_width="180dip"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20dip" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dip"
+                android:text="真实姓名："
+                android:textColor="@color/black"
+                android:textSize="20dip" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/userinfoEditText05"
+                android:layout_width="180dip"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="20dip" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dip"
+                android:text="性　　别："
+                android:textColor="@color/black"
+                android:textSize="20dip" >
+            </TextView>
+
+            <RadioGroup
+                android:id="@+id/userinfoRadioGroup01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/userinfoRadioButton01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="男"
+                    android:textColor="@color/black" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/userinfoRadioButton02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="女"
+                    android:textColor="@color/black" >
+                </RadioButton>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dip"
+                android:text="电子邮箱："
+                android:textColor="@color/black"
+                android:textSize="20dip" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/userinfoEditText07"
+                android:layout_width="180dip"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text=""
+                android:textSize="20dip" >
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/userinfoButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dip"
+            android:text="修改信息"
+            android:textSize="20dip" >
+        </Button>
+
+
+        <Button
+            android:id="@+id/userinfoButton03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="80dip"
+            android:text="注销"
+            android:textSize="20dip" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

@@ -5,6 +5,8 @@ public class Constant
 	public static final int LOGINVIEW=0;//修改EditText的内容
     public static final int CHANGE_EDIT2=1;
     public static final String IP_ADDRESS="10.0.2.2";
+    public static final String PORT="8080";
+    public static final String WEB_APP_NAME="Hotel";
     public static final int MAINVIEW=2;
     public static final int KFVIEW=3;
     public static final int RESOURCEDETAIL=4;
